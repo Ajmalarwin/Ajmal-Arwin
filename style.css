@@ -1,0 +1,289 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 100%;
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.9) 10%,
+      rgba(0, 0, 0, 0.9) 10%
+    ),
+    url(R.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 109dvh;
+}
+
+.navbar {
+  width: 1500px;
+  height: 75px;
+  margin: auto;
+}
+
+.icon {
+  width: 200px;
+  float: left;
+  height: 75px;
+}
+
+.logo {
+  color: yellowgreen;
+  font-size: 34px;
+  font-family:'Times New Roman', Times, serif;
+  float: left;
+  padding-top: 10px;
+}
+
+.menu {
+  width: 400px;
+  float: left;
+  height: 70px;
+}
+
+ul {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li {
+  list-style: none;
+  margin-left: 30px;
+  margin-top: 25px;
+  font-size: 14px;
+}
+
+ul li a {
+  text-decoration: underline;
+  color: antiquewhite;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4 ease-in-out;
+}
+ul li a:hover {
+  color: yellowgreen;
+}
+
+.search {
+  width: 33x;
+  float: left;
+  margin-left: 550px;
+}
+
+.srch {
+  font-family: "Times New Roman";
+  width: 200px;
+  height: 40px;
+  background: transparent;
+  border: 1px solid greenyellow;
+  margin-top: 13px;
+  color: antiquewhite;
+  border-right: none;
+  font-size: 16px;
+  float: left;
+  padding: 10px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.srch:hover {
+  text-decoration: underline;
+}
+
+.btn {
+  width: 100px;
+  height: 40px;
+  background: yellowgreen;
+  border: 2px solid yellowgreen;
+  margin-top: 13px;
+  color: aliceblue;
+  font-size: 15px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  transition: 0.3 ease;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:hover {
+  text-decoration: underline;
+}
+
+.srch:focus {
+  outline: none;
+}
+
+.content {
+  width: 1500px;
+  height: auto;
+  margin: auto;
+  color: aliceblue;
+  position: relative;
+  margin-top: 0px;
+}
+
+.content .par {
+  padding-left: 2px;
+  padding-bottom: 25px;
+  font-family: Arial;
+  letter-spacing: 1.2px;
+  line-height: 30px;
+  margin-top: 30px;
+  font-size: 26px;
+}
+
+.content h1 {
+  font-family: Arial;
+  font-size: 50px;
+  padding-left: 2px;
+  margin-top: 9%;
+  letter-spacing: 5px;
+  color: yellowgreen;
+  text-decoration: underline;
+}
+
+.content .cn {
+  width: 160px;
+  height: 40px;
+  background: yellowgreen;
+  border: none;
+  margin-top: 100px;
+  margin-left: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+
+.content .cn a {
+  text-decoration: none;
+  color: black;
+  transition: 0.3s ease;
+}
+
+.content .cn:hover {
+  background: whitesmoke;
+}
+
+.form {
+  width: 250px;
+  height:380px;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 50%,
+    rgba(0, 0, 0, 0.8) 50%
+  );
+  margin-left:1150px;
+  margin-top: -500px;
+  top: -20px;
+  left: 870px;
+  border-radius: 10px;
+  padding:25px;
+
+}
+
+.form h2{ 
+    width:220px;
+    font-family: sans-serif;
+    text-align: center;
+    color:black;
+    font-size: 22px;
+    background-color:yellowgreen;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+    transition: 0.4s ease;
+}
+
+.form h2:hover{
+  background: white;
+  color:black;
+  text-decoration: underline;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent; 
+    border-bottom: 1px solid yellowgreen;
+    border-right: none;
+    border-left: none;
+    color:white;
+    font-size: 15px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:focus {
+  outline: none;
+}
+
+ ::placeholder{
+  color: white; 
+  font-family: Arial;
+ }
+
+.btnn{
+  width: 240px;
+  height: 40px;
+  background:yellowgreen;
+  border: none;
+  margin-top: 30px; 
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  transition: 0.4s ease;
+}
+
+.btnn:hover{
+  background: white;
+  color:yellowgreen;
+  text-decoration: underline;
+}
+
+.btnn a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.form .link{
+  font-family: Arial;
+  font-size: 17px;
+  padding-top: 20px; 
+  text-align: center;
+}
+
+.form .link a{
+  text-decoration: none;
+  color: yellowgreen;
+}
+
+.liw{
+  padding-top: 15px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.icon a{
+  text-decoration: none;
+  color: white
+}
+
+.icon ion-icon{
+  color: white;
+  font-size: 22px;
+  padding-left: 14px;
+  padding-top: 5px;
+  transition: 0.3s ease;
+}
+
+.icon ion-icon:hover{
+  color:yellowgreen;
+}
